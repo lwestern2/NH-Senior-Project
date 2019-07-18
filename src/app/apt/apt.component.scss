@@ -1,0 +1,370 @@
+@import url(//db.onlinewebfonts.com/c/39a2c7f346d5cfae7045aeb2fb50d9ad?family=LuloCleanW01-OneBold);
+
+@font-face {
+  font-family: "Lulo";
+  src: url("//db.onlinewebfonts.com/t/39a2c7f346d5cfae7045aeb2fb50d9ad.eot");
+  src: url("//db.onlinewebfonts.com/t/39a2c7f346d5cfae7045aeb2fb50d9ad.eot?#iefix") format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/39a2c7f346d5cfae7045aeb2fb50d9ad.woff2") format("woff2"),
+    url("//db.onlinewebfonts.com/t/39a2c7f346d5cfae7045aeb2fb50d9ad.woff") format("woff"),
+    url("//db.onlinewebfonts.com/t/39a2c7f346d5cfae7045aeb2fb50d9ad.ttf") format("truetype"),
+    url("//db.onlinewebfonts.com/t/39a2c7f346d5cfae7045aeb2fb50d9ad.svg#LuloCleanW01-OneBold") format("svg");
+}
+
+.apt-main {
+  background: #c6c6c6;
+  margin-top: 100px;
+}
+
+.apt-white {
+  background-color: #fff;
+}
+
+a {
+  text-decoration: none;
+}
+
+#header-pic {
+  background-image: url(../../assets/new-images/parking-lot.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  height: 415px;
+  width: 100%;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+h1 {
+  margin: 0;
+  font-family: Lulo;
+  font-size: 40px;
+  text-align: center;
+  padding: 20px 0 10px 0;
+}
+
+#header {
+  margin-bottom: 30px;
+}
+
+#header p {
+  font-family: Helvetica, sans-serif;
+  font-size: 18px;
+  text-align: justify;
+  width: 575px;
+  margin: auto;
+  line-height: 23px;
+  margin-bottom: 30px;
+  font-weight: 100;
+}
+
+#view-apt {
+  max-width: 980px;
+  margin: auto;
+}
+
+h2 {
+  font-family: Lulo;
+  font-size: 36px;
+  color: #fff;
+  text-align: center;
+  background: #78C445;
+  width: 980px;
+  margin: auto;
+  padding: 5px 0;
+}
+
+#view-apt p {
+  font-family: Helvetica, sans-serif;
+  font-size: 18px;
+  text-align: center;
+  font-weight: 200;
+  margin-bottom: 0;
+}
+
+#floorplan {
+  background-image: url(../../assets/new-images/floorplan1.jpg);
+  width: 410px;
+  height: 335px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#mens,
+#womens {
+  max-width: 980px;
+  margin: auto;
+}
+
+#mens h2,
+#womens h2 {
+  letter-spacing: -5px;
+}
+
+#nh1 img,
+#nh2 img {
+  width: 268px;
+  height: 250px;
+  margin: 20px 0 50px 0;
+}
+
+#nh1-info,
+#nh2-info {
+  width: 600px;
+}
+
+.info {
+  font-family: Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 100;
+}
+
+.info p {
+  margin-bottom: 2px;
+}
+
+ul {
+  margin-top: 0;
+}
+
+.avail-list {
+  list-style: none;
+  padding-left: 20px;
+}
+
+#avail li {
+  padding: 5px 0;
+}
+
+.avail {
+  margin: -28px 0 0 130px;
+  color: #78C445;
+  font-weight: bold;
+}
+
+.full {
+  margin: -28px 0 0 130px;
+  color: rgba(233, 0, 0, 0.918);
+  font-weight: bold;
+}
+
+.row.info {
+  justify-content: space-between;
+}
+
+.price-lock {
+  max-width: 980px;
+  margin: auto;
+}
+
+.price-lock h2 {
+  letter-spacing: -5px;
+  font-size: 32px;
+}
+
+.price-lock p {
+  font-family: Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 200;
+}
+
+#notes {
+  font-size: 16px;
+  text-align: center;
+  margin: 0
+}
+
+.price-lock ul {
+  font-family: Helvetica, sans-serif;
+  font-size: 18px;
+  width: 690px;
+  margin: auto;
+}
+
+#sub-heading {
+  font-family: Lulo;
+  font-size: 36px;
+  text-align: center;
+  margin-top: 30px;
+  color: rgba(111, 182, 64, 0.938);
+}
+
+h4 {
+  font-family: Lulo;
+  font-size: 18px;
+  letter-spacing: 0;
+  text-align: center;
+  color: rgba(111, 182, 64, 0.938);
+  margin-bottom: 15px;
+}
+
+//price tables
+table {
+  font-family: Helvetica, sans-serif;
+  font-size: 20px;
+  text-align: center;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.small {
+  font-size: 13px;
+  margin: 2px;
+}
+
+table tr {
+  border-bottom: 2px solid #aaaaaa;
+}
+
+table tr:last-child {
+  border-bottom: none;
+}
+
+table td,
+th {
+  border-left: 2px solid #aaaaaa;
+}
+
+table td:first-child,
+th:first-child {
+  border-left: none;
+}
+
+th,
+td {
+  padding: 5px 12px;
+}
+
+//sign up now buttons
+.pointer {
+  width: 240px;
+  height: 60px;
+  position: relative;
+  background: #78C445;
+  color: #fff;
+  font-family: Helvetica, sans-serif;
+  font-size: 28px;
+  font-weight: bold;
+  text-align: center;
+  padding: 3.5%;
+  margin: 0;
+  transition: 0.3s;
+}
+
+.pointer:before {
+  content: "";
+  position: absolute;
+  right: -30px;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-left: 30px solid #78C445;
+  border-top: 30px solid transparent;
+  border-bottom: 30px solid transparent;
+  transition: 0.3s;
+}
+
+.pointer:hover {
+  background: #696969;
+}
+
+.pointer:hover::before {
+  border-left: 30px solid #696969;
+}
+
+.point-link:hover {
+  background-color: transparent;
+}
+
+//price lock circles
+#circle-flex {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.circle {
+  width: 230px;
+  height: 230px;
+  border-radius: 50%;
+  font-size: 24px;
+  font-family: Lulo;
+  color: #fff;
+  text-align: center;
+  background: #78C445;
+  padding: 0 13%;
+  overflow: hidden;
+  margin: 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s;
+}
+
+.circle:hover {
+  background-color: #4D8229;
+}
+
+.circle .first {
+  line-height: 30px;
+}
+
+.circle .second {
+  display: none;
+}
+
+.circle:hover .first {
+  display: none;
+}
+
+.circle:hover .second {
+  display: inline-block;
+  font-family: Helvetica, sans-serif;
+  font-size: 25px;
+  line-height: 28px;
+}
+
+
+//gallery
+ngx-gallery {
+  margin: 20px 0;
+}
+
+ngx-gallery /deep/ .ngx-gallery-image.ngx-gallery-active {
+  z-index: 1;
+}
+
+ngx-gallery /deep/ .ngx-gallery-arrow-wrapper {
+  z-index: 2;
+}
+
+//to top button
+#button {
+  display: flex;
+  justify-content: center;
+}
+
+#myBtn {
+  width: 65px;
+  height: 65px;
+  font-size: 15px;
+  background-color: #B6DF9B;
+  cursor: pointer;
+  border-radius: 50px;
+  font-family: Helvetica, sans-serif;
+  font-weight: 100;
+  outline: none;
+  border: none;
+  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2);
+  margin: 10px 0 15px 0;
+  transition: 0.3s;
+}
+
+#myBtn:hover {
+  background-color: #4D8229;
+}

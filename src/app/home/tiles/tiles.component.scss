@@ -1,0 +1,99 @@
+.main {
+  max-width: 980px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+a {
+  text-decoration: none;
+}
+
+.tile {
+  width: 200px;
+  height: 192px;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  margin-top: 170px;
+  position: relative;
+  transition: background-color .2s ease-in-out;
+}
+
+.tile:hover {
+  background: #E4E4E4;
+}
+
+.overlay {
+  height: 70px;
+  width: 200px;
+  font-size: 19px;
+  font-family: Helvetica, sans-serif;
+  background: #78C445;
+  color: white;
+  font-weight: bold;
+  letter-spacing: 2px;
+  padding: 10% 0 0 6%;
+  line-height: 40%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.overlay hr {
+  width: 48px;
+  border: solid 1.5px #fff;
+}
+
+//icons
+#apt {
+  background-image: url(../../../assets/images/icons/bed.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 71px;
+  margin: 13% 32%;
+  transition: background-image .3s ease-in-out;
+}
+
+.tile:hover #apt {
+  background-image: url(../../../assets/images/icons/sofa.png);
+}
+
+#amen {
+  background-image: url(../../../assets/images/icons/washing-machine.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 71px;
+  margin: 13% 32%;
+  transition: background-image .3s ease-in-out;
+}
+
+.tile:hover #amen {
+  background-image: url(../../../assets/images/icons/theater.png);
+}
+
+#gallery {
+  background-image: url(../../../assets/images/icons/two-polaroid-pictures.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 71px;
+  margin: 13% 32%;
+  transition: background-image .3s ease-in-out;
+}
+
+.tile:hover #gallery {
+  background-image: url(../../../assets/images/icons/camera.png);
+}
+
+#contact {
+  background-image: url(../../../assets/images/icons/smartphone-call.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 71px;
+  margin: 13% 32%;
+  transition: background-image .3s ease-in-out;
+}
+
+.tile:hover #contact {
+  background-image: url(../../../assets/images/icons/mail.png);
+}

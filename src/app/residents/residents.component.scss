@@ -1,0 +1,181 @@
+@import url(//db.onlinewebfonts.com/c/39a2c7f346d5cfae7045aeb2fb50d9ad?family=LuloCleanW01-OneBold);
+
+@font-face {font-family: "Lulo";
+    src: url("//db.onlinewebfonts.com/t/39a2c7f346d5cfae7045aeb2fb50d9ad.eot");
+    src: url("//db.onlinewebfonts.com/t/39a2c7f346d5cfae7045aeb2fb50d9ad.eot?#iefix") format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/39a2c7f346d5cfae7045aeb2fb50d9ad.woff2") format("woff2"),
+    url("//db.onlinewebfonts.com/t/39a2c7f346d5cfae7045aeb2fb50d9ad.woff") format("woff"),
+    url("//db.onlinewebfonts.com/t/39a2c7f346d5cfae7045aeb2fb50d9ad.ttf") format("truetype"),
+    url("//db.onlinewebfonts.com/t/39a2c7f346d5cfae7045aeb2fb50d9ad.svg#LuloCleanW01-OneBold") format("svg");
+}
+
+#resident-main {
+    background: #e0e0e0;
+    margin-top: 100px;
+}
+
+.main {
+    max-width: 980px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    text-align: center;
+    font-family: Lulo;
+    font-size: 40px;
+    padding: 15px 0 0 0;
+    margin: auto;
+}
+
+.tile {
+    width: 210px;
+    height: 250px;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 50px 0;
+    position: relative; //has to be relative so absolute positioning works on overlay
+}
+
+.overlay {
+    height: 145px;
+    width: 210px;
+    font-size: 18px;
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    background: #78C445;
+    color: white;
+    font-weight: bold;
+    padding: 6% 6% 0 7%;
+    letter-spacing: 2px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.overlay hr {
+    width: 90px;
+    border: solid 1.5px #fff;
+    margin: 4px 0 0 0;
+}
+
+p {
+    font-family: Helvetica, sans-serif;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 0;
+    font-weight: 150;
+}
+
+//icons
+#rent {
+    background-image: url(../../assets/images/icons/dollar-coin-money.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 80px;
+    margin: 6% 31%;
+    transition: background-image .3s ease-in-out;
+}
+
+#rent:hover {
+    background-image: url(../../assets/images/icons/dollar-coin-money-dark.png);
+}
+
+#maintenance {
+    background-image: url(../../assets/images/icons/tools.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 80px;
+    margin: 6% 31%;
+    transition: background-image .3s ease-in-out;
+}
+
+#maintenance:hover {
+    background-image: url(../../assets/images/icons/tools-dark.png);
+}
+
+#reserve {
+    background-image: url(../../assets/images/icons/calendar.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 80px;
+    margin: 6% 31%;
+    transition: background-image .3s ease-in-out;
+}
+
+#reserve:hover {
+    background-image: url(../../assets/images/icons/calendar-dark.png);
+}
+
+#portal {
+    background-image: url(../../assets/images/icons/profile.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 80px;
+    margin: 6% 31%;
+    transition: background-image .3s ease-in-out;
+}
+
+#portal:hover {
+    background-image: url(../../assets/images/icons/profile-dark.png);
+}
+
+#renew {
+    background-image: url(../../assets/images/icons/pencil.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 80px;
+    margin: 6% 31%;
+    transition: background-image .3s ease-in-out;
+}
+
+#renew:hover {
+    background-image: url(../../assets/images/icons/pencil-dark.png);
+}
+
+#ward {
+    background-image: url(../../assets/images/icons/search.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 80px;
+    margin: 6% 31%;
+    transition: background-image .3s ease-in-out;
+}
+
+#ward:hover {
+    background-image: url(../../assets/images/icons/search-dark.png);
+}
+
+#report {
+    background-image: url(../../assets/images/icons/tasks.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 80px;
+    margin: 6% 31%;
+    transition: background-image .3s ease-in-out;
+}
+
+#report:hover {
+    background-image: url(../../assets/images/icons/tasks-dark.png);
+}
+
+#clean {
+    background-image: url(../../assets/images/icons/spray.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 80px;
+    margin: 6% 31%;
+    transition: background-image .3s ease-in-out;
+}
+
+#clean:hover {
+    background-image: url(../../assets/images/icons/spray-dark.png);
+}

@@ -1,0 +1,225 @@
+@import url(//db.onlinewebfonts.com/c/39a2c7f346d5cfae7045aeb2fb50d9ad?family=LuloCleanW01-OneBold);
+
+@font-face {
+  font-family: "Lulo";
+  src: url("//db.onlinewebfonts.com/t/39a2c7f346d5cfae7045aeb2fb50d9ad.eot");
+  src: url("//db.onlinewebfonts.com/t/39a2c7f346d5cfae7045aeb2fb50d9ad.eot?#iefix") format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/39a2c7f346d5cfae7045aeb2fb50d9ad.woff2") format("woff2"),
+    url("//db.onlinewebfonts.com/t/39a2c7f346d5cfae7045aeb2fb50d9ad.woff") format("woff"),
+    url("//db.onlinewebfonts.com/t/39a2c7f346d5cfae7045aeb2fb50d9ad.ttf") format("truetype"),
+    url("//db.onlinewebfonts.com/t/39a2c7f346d5cfae7045aeb2fb50d9ad.svg#LuloCleanW01-OneBold") format("svg");
+}
+
+body {
+  transition: background-color .5s ease-in-out;
+}
+
+.head-main {
+  background-color: #78c445;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+}
+
+.main {
+  display: flex;
+  max-width: 980px;
+  margin: auto;
+  max-height: 100px;
+}
+
+#img-logo {
+  margin: 5px;
+  background-image: url(../../assets/images/NH-house.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 113px;
+  height: 92px;
+  position: relative;
+}
+
+a {
+  text-decoration: none;
+}
+
+#menu-toggle {
+  font-size: 3em;
+  color: white;
+  text-decoration: none;
+  position: absolute;
+  top: 30%;
+  left: 30%;
+  cursor: pointer;
+}
+
+.title {
+  text-align: center;
+  margin: auto;
+  font-family: Lulo;
+  font-size: 36px;
+  color: white;
+  transition: color .3s ease-in-out;
+}
+
+.title:hover {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+#resident {
+  display: flex;
+  align-items: center;
+}
+
+.btn-primary {
+  display: block;
+  padding: 4.5%;
+  width: 145px;
+  height: 40px;
+  text-align: center;
+  background-color: white;
+  font-size: 18px;
+  font-family: Helvetica, sans-serif;
+  border-radius: 40px;
+  transition: background-color .5s ease-in-out;
+}
+
+.btn-primary:hover {
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+#log-in {
+  // background-image: url(../../assets/images/user-circle-solid.svg);
+  background-repeat: no-repeat;
+  margin: 5px;
+  width: 28px;
+}
+
+//Side Nav
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #78c445;
+  overflow: hidden;
+  padding-top: 70px;
+  transition: 0.3s;
+  scrollbar-width: 0;
+}
+
+.fade > * {
+ opacity: 0;
+}
+
+.sidenav a {
+  padding: 8px 8px 10px 8px;
+  text-decoration: none;
+  font-size: 24px;
+  color: #000;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-family: Helvetica, sans-serif;
+  background-color: transparent;
+}
+
+.sidenav a:hover {
+  color: #000;
+  text-align: center;
+  font-size: 24px;
+  background-color: rgba(255, 255, 255, 0.4);
+  border-radius: 40px;
+}
+
+.sidenav a:active {
+  background-color: #4D8229;
+  color: #fff;
+}
+
+#closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 50px;
+  margin-left: 50px;
+  cursor: pointer;
+}
+
+#closebtn:hover {
+  background-color: transparent;
+}
+
+#nav-size {
+  width: 85%;
+  margin: auto;
+}
+
+#social-media {
+  max-width: 100px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+#social-media img {
+  width: 42px;
+  height: 42px;
+}
+
+#social-media a:hover {
+  background-color: transparent;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+
+  .sidenav a {
+    font-size: 18px;
+  }
+}
+
+//css shape for sign now button
+#pointer {
+  width: 200px;
+  height: 60px;
+  position: relative;
+  background: #696969;
+  color: #fff;
+  font-family: Helvetica, sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  padding: 4.5%;
+  margin: auto;
+  transition: 0.3s;
+}
+
+#pointer:before {
+  content: "";
+  position: absolute;
+  right: -30px;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-left: 30px solid #696969;
+  border-top: 30px solid transparent;
+  border-bottom: 30px solid transparent;
+  transition: 0.3s;
+}
+
+#pointer:hover {
+  background: #4D8229;
+}
+
+#pointer:hover::before {
+  border-left: 30px solid #4D8229;
+}
+
+#point-link:hover {
+  background-color: transparent;
+}

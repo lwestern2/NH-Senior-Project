@@ -1,0 +1,65 @@
+@import url(//db.onlinewebfonts.com/c/39a2c7f346d5cfae7045aeb2fb50d9ad?family=LuloCleanW01-OneBold);
+
+@font-face {
+  font-family: "Lulo";
+  src: url("//db.onlinewebfonts.com/t/39a2c7f346d5cfae7045aeb2fb50d9ad.eot");
+  src: url("//db.onlinewebfonts.com/t/39a2c7f346d5cfae7045aeb2fb50d9ad.eot?#iefix") format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/39a2c7f346d5cfae7045aeb2fb50d9ad.woff2") format("woff2"),
+    url("//db.onlinewebfonts.com/t/39a2c7f346d5cfae7045aeb2fb50d9ad.woff") format("woff"),
+    url("//db.onlinewebfonts.com/t/39a2c7f346d5cfae7045aeb2fb50d9ad.ttf") format("truetype"),
+    url("//db.onlinewebfonts.com/t/39a2c7f346d5cfae7045aeb2fb50d9ad.svg#LuloCleanW01-OneBold") format("svg");
+}
+
+.sign-main {
+  max-width: 980px;
+  margin: auto;
+  background-color: #fff;
+}
+
+#header-pic {
+  background-image: url(../../assets/new-images/parking-lot.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  height: 415px;
+  width: 100%;
+}
+
+#header {
+  background: #c6c6c6;
+  margin-top: 100px;
+  margin-bottom: 30px;
+}
+
+h1 {
+  margin: 0;
+  font-family: Lulo;
+  font-size: 40px;
+  text-align: center;
+  padding: 20px 0 10px 0;
+}
+
+#header p {
+  font-family: Helvetica, sans-serif;
+  font-size: 18px;
+  text-align: justify;
+  width: 660px;
+  margin: auto;
+  line-height: 23px;
+  padding-bottom: 30px;
+  font-weight: 100;
+}
+
+#instruc p {
+  font-family: Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 23px;
+  font-weight: 100;
+}
+
+ul {
+  font-family: Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 100;
+}

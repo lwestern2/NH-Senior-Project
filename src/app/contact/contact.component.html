@@ -1,0 +1,37 @@
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBHb_280k8p4DIqmkygUXqj6w2c7E-RTgA&callback=initMap"
+type="text/javascript"></script>
+<div class="contact-main">
+  <div class="main">
+    <div class="column">
+      <section id="address">
+        <h1 class="main-title">NAUVOO HOUSE APARTMENTS</h1>
+        <p>175 WEST 5TH SOUTH</p>
+        <p>REXBURG, ID 83440</p>
+      </section>
+
+      <section id="contact">
+        <h2 class="title">APARTMENT MANAGERS</h2>
+        <p>Briana & Bria</p>
+        <p>(208) 356-7756</p>
+        <p><a href="mailto:manager@nauvoohouse.com?Subject=Questions%20or%20concerns" target="_top">Manager@NauvooHouse.com</a></p>
+      </section>
+
+      <section id="hours">
+        <h2 class="title">HOURS</h2>
+        <p>Monday - Friday: 1 - 5 pm</p>
+        <p>or anytime by appointment</p>
+      </section>
+
+      <p>Owned and operated by EdgeCreek</p>
+      <p>(801) 404-5995</p>
+    </div>
+
+    <div class="column">
+      <img src="../../assets/new-images/mangers.jpg">
+    </div>
+  </div>
+</div>
+
+<agm-map [latitude]="lat" [longitude]="lng" [zoom]=15>
+  <agm-marker [latitude]="lat" [longitude]="lng" [label]="'Nauvoo House Apartments'"></agm-marker>
+</agm-map>

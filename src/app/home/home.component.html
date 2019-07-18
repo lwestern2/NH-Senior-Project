@@ -1,0 +1,143 @@
+<div class="home-main">
+  <div class="main">
+    <div id="pic-background">
+      <div id="semi-circle">
+        <a routerLink="/sign">Sign a <br> Contract</a>
+      </div>
+      <app-tiles></app-tiles>
+    </div>
+    <section id="welcome">
+      <h2>Welcome to Nauvoo House</h2>
+
+      <div class="row">
+        <div class="column" id="gallery">
+          <ngx-gallery [options]="galleryOptions" [images]="galleryImages"></ngx-gallery>
+        </div>
+
+        <div class="column" id="text">
+          <p id="sub-head">The Nauvoo House Difference</p>
+          <p>At Nauvoo House, we understand that your BYU Idaho experience starts and ends with where you live. We want
+            your experience here to be great so we work hard to make the part we play in that great for you.</p>
+          <p>Nauvoo is a favorite for many students at BYU Idaho for a lot of reasons. At the end of the day, the Nauvoo
+            House experience hinges on 3 simple things: Clean, Safe, and Fun living. We strive to make these 3 things
+            our main goals. It's just that simple.</p>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <div class="home-accent">
+    <section id="culture">
+      <h2>The Nauvoo Culture</h2>
+      <div id="circle-flex">
+        <a class="circle-tag">
+          <div class="circle">
+            <span class="first">Clean</span>
+            <span class="second">Each apartment is sparkling clean and ready for you to relax in with regular cleaning
+              inspections.</span>
+          </div>
+        </a>
+        <a class="circle-tag">
+          <div class="circle" id="safe">
+            <span class="first">Safe</span>
+            <span class="second">Safe is No. 1 and the crew here at Nauvoo strives to keep the property beautiful and
+              safe.</span>
+          </div>
+        </a>
+        <a class="circle-tag">
+          <div class="circle" id="fun">
+            <span class="first">Fun</span>
+            <span class="second">Nauvoo is well known for its great socials and events. We want your time here to be
+              Fun!</span>
+          </div>
+        </a>
+      </div>
+    </section>
+  </div>
+
+  <section id="social">
+    <h2>Nauvoo House is social...Come be social with us!</h2>
+
+    <div class="row">
+      <div class="column" id="grid">
+        <div id="s1" class="grid-img"></div>
+        <div id="s2" class="grid-img"></div>
+        <div id="s3" class="grid-img"></div>
+        <div id="s4" class="grid-img"></div>
+        <div id="s5" class="grid-img"></div>
+        <div id="s6" class="grid-img"></div>
+        <div id="s7" class="grid-img"></div>
+        <div id="s8" class="grid-img"></div>
+        <div id="s9" class="grid-img"></div>
+      </div>
+
+      <div class="column" id="text">
+        <p>Nauvoo House has a social culture unlike any other apartment complex at BYU Idaho. We work hard to make sure
+          that your roommates and neighbors are also your friends. From opening socials each semester to a clubhouse,
+          Fire Pit and other social areas Nauvoo is built around your positive social and educational experience.</p>
+        <br>
+        <p>Follow and like Nauvoo House on Facebook and Instagram to keep updated on parties, prizes, and giveaways.</p>
+
+        <div id="social-media">
+          <a href="https://www.facebook.com/NauvooHouse" target="_blank"><img src="../../assets/images/icons/facebook-f-brands.svg" /></a>
+          <a href="https://www.instagram.com/nauvoohouse/" target="_blank"><img src="../../assets/images/icons/instagram-brands.svg"></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="home-accent">
+    <section class="reviews">
+      <h2>Still not sold on Nauvoo?</h2>
+      <p>Don't take our word on how great Nauvoo House is, see what our current<br> and previous tenants have thought
+        about
+        living here.</p>
+      <div class="row">
+        <div class="column" id="link-review">
+          <p id="love">Love Nauvoo House?</p>
+          <p>Leave us a review to let us and others know how your experience was living at Nauvoo House.</p>
+          <a href="https://www.google.com/search?q=nauvoo+house+rexburg&oq=nauvoo+house+rexburg&aqs=chrome..69i57j69i60j69i61.4465j0j7&sourceid=chrome&ie=UTF-8#lrd=0x53540b06ed1c2345:0xcdd4d2833b5fc368,1,,," target="_blank" id="point-link">
+            <div id="pointer">Review Nauvoo House</div>
+          </a>
+          <p id="small-text">(Current tenants get a prize for leaving a review. Stop by the office for more details.)
+          </p>
+        </div>
+
+        <div class="column">
+          <script type="text/javascript"> 
+        var review_token = 'FwLNI5lKYau93pwdHQBgiCtXoeNmwieZcdwFTMw1hp7OiFIraV'; 
+        var review_target = 'review-container'; 
+        </script> 
+        <script src="https://reviewsonmywebsite.com/js/embed.js?v=8" type="text/javascript"></script>
+          <div id="review-container"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="address">
+      <agm-map [latitude]="lat" [longitude]="lng" [zoom]=15>
+        <agm-marker [latitude]="lat" [longitude]="lng" [label]="'Nauvoo House Apartments'"></agm-marker>
+      </agm-map>
+      <div class="row">
+        <div class="column">
+          <p id="big-text">Nauvoo House:<br>
+            175 West 5th South<br>
+            Rexburg, Id 83440</p>
+        </div>
+
+        <div class="column">
+          <p>Only 1 block away from campus. <br>
+            Get to your classes in 5 minutes!</p>
+        </div>
+      </div>
+
+      <a href="https://www.google.com/maps/dir//nauvoo+house+rexburg/@43.8115989,-111.7924875,16z/data=!4m8!4m7!1m0!1m5!1m1!1s0x53540b06ed1c2345:0xcdd4d2833b5fc368!2m2!1d-111.7887408!2d43.8146038" target="_blank" id="address-link">
+        <div id="directions">Get Directions</div>
+      </a>
+
+      <div id="button">
+        <button (click)="topFunction()" id="myBtn">To Top</button>
+      </div>
+    </section>
+  </div>
+</div>

@@ -1,0 +1,435 @@
+@import url(//db.onlinewebfonts.com/c/39a2c7f346d5cfae7045aeb2fb50d9ad?family=LuloCleanW01-OneBold);
+
+@font-face {
+  font-family: "Lulo";
+  src: url("//db.onlinewebfonts.com/t/39a2c7f346d5cfae7045aeb2fb50d9ad.eot");
+  src: url("//db.onlinewebfonts.com/t/39a2c7f346d5cfae7045aeb2fb50d9ad.eot?#iefix") format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/39a2c7f346d5cfae7045aeb2fb50d9ad.woff2") format("woff2"),
+    url("//db.onlinewebfonts.com/t/39a2c7f346d5cfae7045aeb2fb50d9ad.woff") format("woff"),
+    url("//db.onlinewebfonts.com/t/39a2c7f346d5cfae7045aeb2fb50d9ad.ttf") format("truetype"),
+    url("//db.onlinewebfonts.com/t/39a2c7f346d5cfae7045aeb2fb50d9ad.svg#LuloCleanW01-OneBold") format("svg");
+}
+
+.home-main {
+  margin-top: 100px;
+  background: #c6c6c6;
+}
+
+.home-accent {
+  background: #fff;
+}
+
+a {
+  text-decoration: none;
+}
+
+#pic-background {
+  background-image: url(../../assets/new-images/os-front-angle.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  height: 560px;
+  width: 100%;
+}
+
+#semi-circle {
+  height: 100px;
+  width: 200px;
+  border-radius: 0 0 100px 100px;
+  background: #404040;
+  color: #fff;
+  text-align: center;
+  font-size: 24px;
+  margin: auto;
+  font-weight: bold;
+  padding-top: 5px;
+  transition: background-color .3s ease-in-out;
+}
+
+#semi-circle:hover {
+  background: #4D8229;
+  cursor: pointer;
+}
+
+h2 {
+  font-family: Lulo;
+  font-size: 36px;
+  color: #fff;
+  text-align: center;
+  background: #78C445;
+  width: 980px;
+  margin: auto;
+  padding: 5px 0;
+  letter-spacing: -3px;
+}
+
+#welcome {
+  max-width: 980px;
+  margin: auto;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+#gallery {
+    margin-top: 20px;
+}
+
+#text {
+    width: 340px;
+    font-size: 18px;
+    font-family: Helvetica, sans-serif;
+}
+
+#sub-head {
+    font-size: 22px;
+    margin: 15px 0;
+}
+
+#culture {
+  max-width: 980px;
+  margin: auto;
+  margin-top: -50px;
+}
+
+#circle-flex {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.circle {
+  width: 230px;
+  height: 230px;
+  border-radius: 50%;
+  font-size: 22px;
+  font-family: Lulo;
+  color: #fff;
+  text-align: center;
+  background: #78C445;
+  padding: 0 12%;
+  overflow: hidden;
+  margin: 30px 0;
+  transition: 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.circle:hover {
+  background-color: #4D8229;
+}
+
+.circle .first {
+  line-height: 180px;
+}
+
+.circle .second {
+  display: none;
+}
+
+.circle:hover .first {
+  display: none;
+}
+
+.circle:hover .second {
+  display: inline-block;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+#social {
+  max-width: 980px;
+  margin: auto;
+}
+
+#social-media {
+  max-width: 100px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+#social-media img {
+  width: 42px;
+  height: 42px;
+  margin-top: 20px;
+}
+
+#social-media a:hover {
+  background-color: transparent;
+}
+
+.address {
+  background: #c6c6c6;
+}
+
+agm-map {
+  width: 100%;
+  height: 400px;
+}
+
+#big-text {
+  font-family: Lulo;
+  font-size: 20px;
+}
+
+.address p{
+  font-family: Helvetica, sans-serif;
+  font-size: 18px;
+}
+
+//grid images
+#grid {
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.grid-img {
+  margin: 5px;
+}
+
+.reviews {
+  max-width: 980px;
+  margin: auto;
+}
+
+.reviews p {
+  text-align: center;
+  font-family: Helvetica, sans-serif;
+  font-size: 18px;
+}
+
+#link-review {
+  width: 300px;
+}
+
+#love {
+  font-family: Lulo;
+  font-size: 20px;
+  color: #78C445;
+  font-weight: bolder;
+  margin-top: 0;
+}
+
+#small-text {
+  font-size: 13px;
+}
+
+#review-container {
+  background-image: url(../../assets/images/review.JPG);
+  width: 630px;
+  height: 305px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+//grid images
+#s1 {
+  background-image: url(../../assets/images/nh-twister.jpg);
+  width: 162px;
+  height: 162px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#s2 {
+  background-image: url(../../assets/images/nhtenant-2.jpg);
+  width: 162px;
+  height: 162px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#s3 {
+  background-image: url(../../assets/images/nhtenant-3.jpg);
+  width: 162px;
+  height: 162px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#s4 {
+  background-image: url(../../assets/images/nhtenant-4.jpg);
+  width: 162px;
+  height: 162px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#s5 {
+  background-image: url(../../assets/images/nhtenants.jpg);
+  width: 162px;
+  height: 162px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#s6 {
+  background-image: url(../../assets/images/nh-boys.jpg);
+  width: 162px;
+  height: 162px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#s7 {
+  background-image: url(../../assets/images/nh-jump-rope.jpg);
+  width: 162px;
+  height: 162px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#s8 {
+  background-image: url(../../assets/images/nh-swing.jpg);
+  width: 162px;
+  height: 162px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#s9 {
+  background-image: url(../../assets/images/nh-tenants.jpg);
+  width: 162px;
+  height: 162px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+
+//gallery
+ngx-gallery /deep/ .ngx-gallery-image.ngx-gallery-active {
+    z-index: 1;
+}
+
+ngx-gallery /deep/ .ngx-gallery-arrow-wrapper {
+    z-index: 2;
+}
+
+ngx-gallery /deep/ ngx-gallery-thumbnails {
+  display: none;
+  height: 0;
+}
+
+
+//reviews & get addres button
+#pointer {
+  width: 230px;
+  height: 40px;
+  position: relative;
+  background: #78C445;
+  color: #fff;
+  font-family: Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  padding: 1.5%;
+  margin: auto;
+  transition: 0.3s;
+}
+
+#pointer:before {
+  content: "";
+  position: absolute;
+  right: -20px;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-left: 20px solid #78C445;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+  transition: 0.3s;
+}
+
+#pointer:hover {
+  background: #4D8229;
+}
+
+#pointer:hover::before {
+  border-left: 20px solid #4D8229;
+}
+
+#point-link:hover, #address-link:hover {
+  background-color: transparent;
+}
+
+#directions {
+  width: 230px;
+  height: 40px;
+  position: relative;
+  background: #696969;
+  color: #fff;
+  font-family: Helvetica, sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  padding: .2%;
+  margin: auto;
+  margin-bottom: 10px;
+  transition: 0.3s;
+}
+
+#directions:before {
+  content: "";
+  position: absolute;
+  right: -20px;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-left: 20px solid #696969;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+  transition: 0.3s;
+}
+
+#directions:hover {
+  background: #4D8229;
+}
+
+#directions:hover::before {
+  border-left: 20px solid #4D8229;
+}
+
+//to top button
+#button {
+  display: flex;
+  justify-content: center;
+}
+
+#myBtn {
+width: 65px;
+height: 65px;
+font-size: 15px;
+background-color: #B6DF9B;
+cursor: pointer;
+border-radius: 50px;
+font-family: Helvetica, sans-serif;
+font-weight: 100;
+outline: none;
+border: none;
+box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2);
+margin: 10px 0 15px 0;
+transition: 0.3s;
+}
+
+#myBtn:hover {
+background-color: #4D8229;
+}

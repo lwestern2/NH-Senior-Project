@@ -1,0 +1,237 @@
+<div class="apt-main">
+  <div class="apt">
+    <div id="header-pic"></div>
+    <section id="header">
+      <h1>Apartments & Pricing</h1>
+      <p id="block-text">{{ blockText | uppercase}}</p>
+    </section>
+
+    <div class="apt-white">
+      <section id="view-apt">
+        <h2>View Our Apartments</h2>
+        <p>Want to see your home away from home before you move in?<br>
+          Stop by for a tour. Walk ins welcome.<br>
+          Tours: M-F 1-5pm in the office in the upstairs clubhouse</p>
+
+        <div class="row">
+          <div class="column" id="floorplan"></div>
+
+          <div class="column">
+            <ngx-gallery [options]="galleryOptions" [images]="galleryImages"></ngx-gallery>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <section id="mens">
+      <h2>Nauvoo House I - Men's Shared</h2>
+
+      <div class="row">
+        <div class="column" id="nh1">
+          <img src="../../assets/new-images/nh1.jpg">
+          <a routerLink="/sign" class="point-link">
+            <div class="pointer">Sign Up Now</div>
+          </a>
+        </div>
+
+        <div class="column" id="nh1-info">
+
+          <div class="row info">
+            <div class="column">
+              <p>Details:</p>
+              <ul>
+                <li>3 Bedrooms</li>
+                <li>2 Bathrooms</li>
+                <li>6 Beds</li>
+                <li>1,400 Square Feet</li>
+              </ul>
+            </div>
+            <div class="column info">
+              <p>Availability:</p>
+              <ul class="avail-list">
+                <li>Fall 2019:<p class="avail">Available</p>
+                </li>
+                <li>Winter 2020:<p class="avail">Available</p>
+                </li>
+                <li>Spring 2020:<p class="avail">Available</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <table>
+            <tr>
+              <th>Semester</th>
+              <th>Fall 2019
+                <p class="small">9/13/19 - 12/20/19</p>
+              </th>
+              <th>Winter 2020
+                <p class="small">1/6/20 - 4/11/20</p>
+              </th>
+              <th>Spring 2020
+                <p class="small">4/19/20 - 7/24/20</p>
+              </th>
+            </tr>
+            <tr>
+              <th>Best Deal:</th>
+              <td>$1,339
+                <p class="small">Sign by 5/31/19</p>
+              </td>
+              <td>$1,339
+                <p class="small">Sign by 9/20/19</p>
+              </td>
+              <td>$1,309
+                <p class="small">Sign by 1/17/20</p>
+              </td>
+            </tr>
+            <tr>
+              <th>Early Bird:</th>
+              <td>$1,369
+                <p class="small">Sign by 7/24/19</p>
+              </td>
+              <td>$1,369
+                <p class="small">Sign by 11/1/19</p>
+              </td>
+              <td>$1,339
+                <p class="small">Sign by 2/21/20</p>
+              </td>
+            </tr>
+            <tr>
+              <th>Value Price:</th>
+              <td>$1,399</td>
+              <td>$1,399</td>
+              <td>$1,369</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <div class="apt-white">
+      <section id="womens">
+        <h2>Nauvoo House II - Women's Shared</h2>
+
+        <div class="row">
+          <div class="column" id="nh2">
+            <img src="../../assets/new-images/nh2.jpg">
+            <a routerLink="/sign" class="point-link">
+              <div class="pointer">Sign Up Now</div>
+            </a>
+          </div>
+
+          <div class="column" id="nh2-info">
+
+            <div class="row info">
+              <div class="column">
+                <p>Details:</p>
+                <ul>
+                  <li>3 Bedrooms</li>
+                  <li>2 Bathrooms</li>
+                  <li>6 Beds</li>
+                  <li>1,400 Square Feet</li>
+                </ul>
+              </div>
+              <div class="column info">
+                <p>Availability:</p>
+                <ul class="avail-list">
+                  <li>Fall 2019:<p class="full">Full</p>
+                  </li>
+                  <li>Winter 2020:<p class="avail">Available</p>
+                  </li>
+                  <li>Spring 2020:<p class="avail">Available</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <table>
+              <tr>
+                <th>Semester</th>
+                <th>Fall 2019
+                  <p class="small">9/13/19 - 12/20/19</p>
+                </th>
+                <th>Winter 2020
+                  <p class="small">1/6/20 - 4/11/20</p>
+                </th>
+                <th>Spring 2020
+                  <p class="small">4/19/20 - 7/24/20</p>
+                </th>
+              </tr>
+              <tr>
+                <th>Best Deal:</th>
+                <td>$1,339
+                  <p class="small">Sign by 5/31/19</p>
+                </td>
+                <td>$1,339
+                  <p class="small">Sign by 9/20/19</p>
+                </td>
+                <td>$1,339
+                  <p class="small">Sign by 1/17/20</p>
+                </td>
+              </tr>
+              <tr>
+                <th>Early Bird:</th>
+                <td>$1,369
+                  <p class="small">Sign by 7/24/19</p>
+                </td>
+                <td>$1,369
+                  <p class="small">Sign by 11/1/19</p>
+                </td>
+                <td>$1,369
+                  <p class="small">Sign by 2/21/20</p>
+                </td>
+              </tr>
+              <tr>
+                <th>Value Price:</th>
+                <td>$1,399</td>
+                <td>$1,399</td>
+                <td>$1,399</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <section class="price-lock">
+        <h2>Want your price forever? Price Lock it</h2>
+        <p>SIGN UP for 2 semesters initially and recieve:</p>
+
+        <div id="circle-flex">
+            <a class="circle-tag">
+              <div class="circle" id="low">
+                <span class="first">Lowest Price</span>
+                <span class="second">The lower semester price, if the 2 semesters are a different price</span>
+              </div>
+            </a>
+            <a class="circle-tag">
+              <div class="circle" id="same">
+                <span class="first">Same Price Forever</span>
+                <span class="second">The same low price LOCKED IN FOREVER!</span>
+              </div>
+            </a>
+          </div>
+
+          <p id="notes">(Contact managers for more details)</p>
+          <ul>Please note:
+            <li>Make sure to sign a new semester contract to least 30 days before the start of that semester and your price will NEVER CHANGE!</li>
+            <li>Exception: Men's Spring housing is discounted $30 off the pricing for Fall & Winter, due to not having A/C in the apartments. Price Lock pricing will be at the normal Fall & Winter price for Fall & Winter, and at the discounted price for Spring.</li>
+            <li>Non-transferable. Cancellation and/or selling of contracts can disqaulify you from price lock deals.</li>
+          </ul>
+
+          <h3 id="sub-heading">Why Price Lock?</h3>
+          <ul>
+            <li>Are you scared of super low "teaser" semester rates that skyrocket the next semester?</li>
+            <li>Are you on a budget and want to know exactly how much you can afford stright through graduation?</li>
+            <li>Are you tired of rent rising every year, or even every semester?</li>
+            <li>Would you like to be treated fairly with no super low rate to get you in, followed by an insane high rate the next semester?</li>
+          </ul>
+          <h4>...You have come to the right place</h4>
+
+          <div id="button">
+              <button (click)="topFunction()" id="myBtn">To Top</button>
+            </div>
+      </section>
+      
+  </div>
+</div>

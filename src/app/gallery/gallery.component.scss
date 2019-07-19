@@ -28,11 +28,11 @@ h1 {
     margin: auto;
 }
   
-ngx-gallery /deep/ .ngx-gallery-arrow {
+ngx-gallery ::ng-deep .ngx-gallery-arrow {
     color: #afafaf;
 }
 
-ngx-gallery /deep/ .ngx-gallery-arrow-wrapper {
+ngx-gallery ::ng-deep .ngx-gallery-arrow-wrapper {
     z-index: 2;
 }
 
@@ -40,6 +40,6 @@ ngx-gallery {
     margin-bottom: 20px;
 }
 
-ngx-gallery /deep/ .ngx-gallery-image.ngx-gallery-active {
+ngx-gallery ::ng-deep .ngx-gallery-image.ngx-gallery-active {
     z-index: 1;
 }

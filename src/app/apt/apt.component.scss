@@ -335,11 +335,11 @@ ngx-gallery {
   margin: 20px 0;
 }
 
-ngx-gallery /deep/ .ngx-gallery-image.ngx-gallery-active {
+ngx-gallery ::ng-deep .ngx-gallery-image.ngx-gallery-active {
   z-index: 1;
 }
 
-ngx-gallery /deep/ .ngx-gallery-arrow-wrapper {
+ngx-gallery ::ng-deep .ngx-gallery-arrow-wrapper {
   z-index: 2;
 }
 

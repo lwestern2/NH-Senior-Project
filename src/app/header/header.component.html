@@ -3,13 +3,13 @@
 <div id="nav" class="sidenav">
   <div id="nav-size">
     <a id="closebtn" (click)="closeNav()">&times;</a>
-    <a routerLink="/home">Home</a>
-    <a routerLink="/apartments">Apartments & Pricing</a>
-    <a routerLink="/amenities">Amenities</a>
-    <a routerLink="/gallery">Gallery</a>
-    <a routerLink="/contact">Contact</a>
-    <a routerLink="/residents">Current Residents</a>
-    <a routerLink="/sign" id="point-link">
+    <a routerLink="/home" (click)="closeNav()">Home</a>
+    <a routerLink="/apartments" (click)="closeNav()">Apartments & Pricing</a>
+    <a routerLink="/amenities" (click)="closeNav()">Amenities</a>
+    <a routerLink="/gallery" (click)="closeNav()">Gallery</a>
+    <a routerLink="/contact" (click)="closeNav()">Contact</a>
+    <a routerLink="/residents" (click)="closeNav()">Current Residents</a>
+    <a routerLink="/sign" id="point-link" (click)="closeNav()">
       <div id="pointer">Sign Up Now</div>
     </a>
   </div>
@@ -22,7 +22,7 @@
 <div class="head-main">
   <div class="main">
     <div id="img-logo">
-      <a id="menu-toggle" (click)="openNav()">&#9776;</a>
+      <a id="menu-toggle" (click)="openNav(event)">&#9776;</a>
     </div>
 
     <h1 class="title"><a routerLink="/home">Nauvoo House</a></h1>

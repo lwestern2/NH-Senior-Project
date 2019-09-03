@@ -17,9 +17,6 @@ export class HeaderComponent implements OnInit {
     document.getElementById("nav").classList.remove("fade");
     document.body.style.backgroundColor = "rgba(0,0,0,0.1)";
     document.getElementById("nav").style.zIndex = "100";
-
-    // let listener = document.getElementsByClassName('main');
-    // document.body.addEventListener('click', this.closeNav);
   }
 
   
